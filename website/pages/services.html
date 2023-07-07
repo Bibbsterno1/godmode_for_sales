@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | Godlike AI</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <img src="../images/logo.png" alt="Godlike AI Logo">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Our Services</h1>
+            <p>Godlike AI offers a range of services to help sales professionals automate their lead generation process.</p>
+        </section>
+
+        <section>
+            <h2>Automated Lead Generation</h2>
+            <p>Our AI tool, Godlike, generates leads for you in the background, saving you time and effort.</p>
+            <button id="leadGenerationButton" onclick="generateLead()">Generate Lead</button>
+            <div id="leadDisplay"></div>
+        </section>
+
+        <section>
+            <h2>LinkedIn Data Fetch</h2>
+            <p>Godlike fetches data from LinkedIn to help you find potential leads.</p>
+            <button id="linkedInButton" onclick="fetchLinkedInData()">Fetch LinkedIn Data</button>
+        </section>
+
+        <section>
+            <h2>HubSpot Data Fetch</h2>
+            <p>Godlike fetches data from HubSpot to help you manage your leads.</p>
+            <button id="hubSpotButton" onclick="fetchHubSpotData()">Fetch HubSpot Data</button>
+        </section>
+
+        <section>
+            <h2>Web Scraping</h2>
+            <p>Godlike uses web scraping to gather additional data for your leads.</p>
+            <button id="webScrapingButton" onclick="performWebScraping()">Perform Web Scraping</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2022 Godlike AI. All rights reserved.</p>
+        <ul>
+            <li><a href="privacy_policy.html">Privacy Policy</a></li>
+            <li><a href="terms_and_conditions.html">Terms & Conditions</a></li>
+        </ul>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/lead_generation.js"></script>
+    <script src="../js/linkedin_api.js"></script>
+    <script src="../js/hubspot_api.js"></script>
+    <script src="../js/webscraping.js"></script>
+    <script src="../js/ai.js"></script>
+</body>
+</html>
